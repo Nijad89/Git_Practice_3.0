@@ -18,6 +18,11 @@ public class First {
 
 
 
+        for (String arg : args) {
+            System.out.println( arg.toUpperCase(Locale.ROOT));
+            break;
+        }
+
 
     }
 
