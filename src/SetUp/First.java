@@ -1,5 +1,7 @@
 package SetUp;
 
+import java.util.Locale;
+
 public class First {
 
 
@@ -9,10 +11,10 @@ public class First {
         System.out.println("Hello world");
 
 
-
-
-
-
+        for (String arg : args) {
+            System.out.println( arg.toUpperCase(Locale.ROOT));
+            break;
+        }
 
 
 
